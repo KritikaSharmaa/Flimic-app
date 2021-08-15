@@ -8,6 +8,10 @@ body {
     url("./theatre.jpg");
   background-size: cover;
 }
+.logo {
+  font-family: "Caveat", cursive;
+  font-size: 2rem;
+}
 .table {
   color: white;
   font-size: 1.1rem;

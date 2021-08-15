@@ -3,9 +3,15 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div className="container-fluid">
-        <Link className="navbar-brand" to="/">
-          MoviesRental
+      <div className="container-fluid ">
+        <Link className="navbar-brand logo" to="/">
+          Filmic
+          <span
+            class="material-icons-outlined"
+            style={{ marginLeft: "0.3rem" }}
+          >
+            live_tv
+          </span>
         </Link>
         <button
           className="navbar-toggler"
